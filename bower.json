@@ -1,0 +1,40 @@
+{
+  "name": "brunch-with-marionette",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  	"jquery": "1.10.2",
+  	"backbone": "1.0.0",
+  	"marionette": "1.0.4"
+  },
+  "overrides": {
+    "backbone": {
+	  "main": "backbone.js",
+    "dependencies" : {
+      "underscore" : "*",
+      "jquery": "*"      
+    }
+	},
+	"backbone.wreqr": {
+		"main" : "lib/backbone.wreqr.js", 
+    "dependencies": {
+      "backbone": "*"
+    }
+	},
+	"backbone.babysitter": {
+		"main": "lib/backbone.babysitter.js",
+    "dependencies": {
+      "backbone": "*"
+    }
+	},
+	"underscore": {
+		"main": "underscore.js"
+	}
+  }  
+}

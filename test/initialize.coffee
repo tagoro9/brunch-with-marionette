@@ -1,8 +1,3 @@
-tests = [
-  './views/header-view-test'
-  './views/home-page-view-test'
-  './views/site-view-test'
-]
-
-for test in tests
-  require test
+# Load all tests.
+for module in window.require.list() when /-test$/.test module
+  require module
