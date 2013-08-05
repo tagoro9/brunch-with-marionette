@@ -6,7 +6,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com/simbco/brunch-with-marionette"
+    "url": "git@github.com/vivictormora/brunch-with-marionette"
   },
   "engines": {
     "node": "0.8.x",
@@ -21,7 +21,7 @@
     "coffee-script-brunch": ">= 1.0 < 1.7",
 
     "css-brunch": ">= 1.0 < 1.7",
-    "stylus-brunch": ">= 1.0 < 1.7",
+    "less-brunch": ">= 1.0 < 1.7",
 
     "handlebars-brunch": ">= 1.0 < 1.7",
 
